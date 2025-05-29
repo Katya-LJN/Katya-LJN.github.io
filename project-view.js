@@ -414,7 +414,7 @@ function loadProject() {
                                 imageContainer.className = 'video-hover-container';
                                 
                                 const imgEl = document.createElement('img');
-                                imgEl.src = idx === 2 ? './assets/project/project1/sidebar.png' : './assets/project/project1/frog4.gif';
+                                imgEl.src = idx === 2 ? './assets/project/project1/sidebar.png' : './assets/project/project1/backdrop.png';
                                 imgEl.alt = `Execution ${idx + 1} image`;
                                 imgEl.style.objectFit = 'cover';
                                 imgEl.style.width = '100%';
